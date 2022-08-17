@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/poetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:text="Mirza Ghalib"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical">
+
+    </TextView>
+    <TextView
+        android:id="@+id/poetryData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:textSize="16sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+
+        android:gravity="center_vertical"
+
+
+        android:text="Meri Aankhon Ki Ronaq Aur Dil Ka Qarar Ho Tum
+
+Meri Thandi Aais  Kareem Aur Aam Ka Achaar Ho Tum..!">
+    </TextView>
+    <TextView
+        android:id="@+id/dataTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="20dp"
+        android:gravity="right|center_vertical"
+        android:padding="5dp"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="05/08/2022">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/updateBtn"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="Update">
+
+        </androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/deleteBtn"
+            android:textAllCaps="false"
+            android:text="Delete">
+
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+</LinearLayout>
